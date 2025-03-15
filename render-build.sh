@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
+echo "Updating package lists..."
+apt-get update
 echo "Installing GraphicsMagick..."
-sudo apt-get update
-sudo apt-get install -y graphicsmagick
+apt-get install -y graphicsmagick
 echo "GraphicsMagick installed successfully!"
